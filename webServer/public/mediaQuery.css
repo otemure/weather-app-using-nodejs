@@ -1,0 +1,85 @@
+@media screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    * {
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    .header img {
+        height: 20px;
+        margin-top: 20px;
+    }
+    
+    .nav-bar {
+        height: auto;
+        width: 100%;
+        float: none;
+        background-image: none;
+    }
+    
+    .nav-bar ul li {
+        padding: 8px 12px;
+        margin-top: 10px;
+        display: block;
+        padding-left: 0;
+        text-align: center;
+    }
+    
+    .nav-bar h1, .nav-bar p {
+        padding-top: 50px;
+        text-align: center;
+    }
+    
+    .container, .city-name {
+        width: 80%;
+        padding-left: 0;
+        text-align: center;
+    }
+    
+    .logo {
+        width: 80px;
+        margin-bottom: 10px;
+    }
+    
+    input[type="text"], button {
+        width: 80%;
+    }
+    
+    .contact-page h1, .contact-page p {
+        padding-left: 20px;
+        text-align: center;
+    }
+    
+    footer {
+        padding: 10px;
+        text-align: center;
+    }
+    
+    footer a {
+        padding: 0 5px;
+    }
+    
+    .login-container, .signup-container {
+        max-width: 90%;
+        padding: 20px;
+    }
+
+    .form-group, label, input[type="text"], input[type="email"], input[type="tel"], button[type="submit"] {
+        width: 100%;
+    }
+
+    .result-headeer {
+        font-size: 100px;
+    }
+    
+    .weather-card {
+        width: 80%;
+        min-height: 300px;
+    }
+    
+    .logo-img {
+        width: 100%;
+        min-height: 50px;
+    }
+}

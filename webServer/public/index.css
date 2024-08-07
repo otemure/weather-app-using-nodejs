@@ -1,0 +1,279 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    overflow:hidden
+    
+}
+.header img{
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 0%;
+}
+.nav-bar{
+    height: 100rem;
+    width:100%;
+    float: right;
+    background-image: linear-gradient(rgba(4,9,30,0.7), 
+    rgba(4,9,30,0.7)), url(images/cloud.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.nav-bar ul li{
+    padding: 8px 12px;
+    padding: 2%, 6%;
+    margin-top:30px;
+    display: inline-flex;
+    padding-left: 30px;
+    float: right;
+    
+}
+.nav-bar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 600;
+   
+   
+    
+}
+.nav-bar ul li a:hover {
+
+    color: #f44336;
+    cursor: pointer;
+    transition:0.5s;
+   
+}
+.nav-bar h1{
+    text-align: center;
+    padding-top: 130px;
+    color:#fff;
+    font-size: 40px;
+}
+.nav-bar p{
+    text-align: center;
+    padding-top: 25px;
+    color:#fff;
+    font-size: 20px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px; 
+
+    
+}
+.container, city-name{
+width: 40%;
+text-align: center;
+padding-left: 60px;
+
+}
+.logo {
+    width: 100px; 
+    margin-bottom: 20px; 
+}
+
+input[type="text"], button {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    text-align: center;
+    background: transparent;
+    color: white;
+}
+
+button:hover {
+    border: 1px solid #F44336;
+    background: #f44336;
+    transition: 1s;
+}
+.contact-page{
+    padding-top: 60px;
+}
+.contact-page h1{
+    font-size: 70px;
+    padding-top: 0;
+    padding-left: 250px;
+}
+
+.contact-page p{
+    font-size: 25px;
+}
+footer {
+    background: transparent;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #f44336;
+    transition: 1s;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+.login-container .form-group .login-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+label[for="username"] {
+  
+    font-weight: bold;
+    color: black;
+}
+
+label[for="password"] {
+  
+    font-weight: bold;
+    color: black;
+}
+
+.signup-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button[type="submit"] {
+    background: transparent;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    width: 300px;
+    margin-top: 30px;
+  margin-left: 30px;
+}
+button[id="submit-btn"] {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    width: 300px;
+    margin-top: 30px;
+  margin-left: 50px
+}
+
+
+button:hover {
+    border: 1px solid #F44336;
+    background: #f44336;
+    transition: 1s;
+}
+
+
+ #username{
+    color:black
+}
+
+.weather-card {
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+    min-height: 350px;
+}
+
+
+
+
+.city-name {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.temperature,
+.description,
+.humidity {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.weather-info span {
+    font-weight: bold;
+} 
+.result-headeer{
+  font-size: 200px;
+}
+
+.logo-img{
+    width: 100%;
+   min-height: 90px;
+   align-items: center; 
+}

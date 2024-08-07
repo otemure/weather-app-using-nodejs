@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet", href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,700;0,800;0,900;1,100;1,300;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src ='weather.js' ></script>
+</head>
+<body>
+    
+    <section class="header">
+
+   <nav class= "nav-bar">
+<ul>
+    
+            <li><a href="SIGNUP">SIGN UP</a></li>
+            <li><a href="LOGIN">LOGIN</a></li>
+            <li><a href="HOME">HOME</a></li>
+    
+</ul>
+<h1 class="result-headeer"> {{title}}</h1>
+<br>
+<div class="">
+    <div class="weather-card">
+    <div class="weather-icon" style="margin: 0 auto;">
+        <img class="logo-img" src="https://openweathermap.org/img/wn/04n.png" />
+    </div>
+    <div class="weather-info">
+        <h2 style="color: white;" class="city-name">{{ weatherData.name }}, {{ weatherData.sys.country }}</h2>
+        <p class="temperature">Temperature: <span>{{ weatherData.main.temp }}°C</span></p>
+    <p class="description">Description: <span>{{ weatherData.weather.[0].description }}</span></p>
+
+
+        <p class="humidity">Humidity: <span>{{ weatherData.main.humidity }}%</span></p>
+    </div>
+</div>
+
+</div>
+{{>footer}}
+
+
+</body>
+
+</html>
